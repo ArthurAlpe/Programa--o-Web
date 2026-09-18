@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f2f2;
+}
+
+.produto {
+    width: 700px;
+
+    display: flex;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+}
+
+.produto img {
+    width: 350px;
+    height: 350px;
+
+    object-fit: cover;
+}
+
+.informacoes {
+    padding: 35px;
+}
+
+.informacoes h1 {
+    margin-top: 0;
+}
+
+.informacoes p {
+    line-height: 1.6;
+}
+
+.preco {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+button {
+    width: 250px;
+    padding: 15px;
+
+    box-sizing: border-box;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}

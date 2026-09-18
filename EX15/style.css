@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* Data de lançamento */
+
+.lancamento {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.lancamento p {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.lancamento time {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #c62828;
+
+    animation: destaque 2s infinite;
+}
+
+
+/* Animação da data */
+
+@keyframes destaque {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+
+/* Produto */
+
+.produto {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.produto img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.informacoes {
+    flex: 1;
+}
+
+.informacoes h2 {
+    font-size: 30px;
+}
+
+.informacoes p {
+    line-height: 1.6;
+}
+
+.informacoes li {
+    margin-bottom: 10px;
+}
+
+
+/* Formulário */
+
+.pre-venda {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pre-venda h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 25px;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}

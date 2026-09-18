@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ), url("imagem.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+main {
+    max-width: 700px;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
